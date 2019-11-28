@@ -12,7 +12,7 @@
 
 ## <a name="Introduction">Introduction</a>
 
-<p>The CheckedTextView is a combination of a TextView as well as a CheckBox that impliments the checkablw interface </p>
+<p>The CheckedTextView is a combination of a TextView as well as a CheckBox that impliments the checkablw interface. Allowing the application to display text to a user and prompting them to click the checkbox in order to change settings, remember a password, or sign up to be added to a email list, these are just some examples the developers could use it for </p>
 
 
 
