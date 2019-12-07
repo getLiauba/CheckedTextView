@@ -44,6 +44,39 @@ Accoring to Microsoft the CheckedTextView Class was introduced early on in andro
 
 ## <a name="Example_Project">Example Project</a>
 
+**Overview of the app and functionality**
+The app I created for this assinment was a simple login screen with the purpose of using the ChckedTextView to save the users email when they click the check box. This application has two TextViews, one for email, the second for password. The app also has a login button (note this button does actually log users in) and lastly the checkedTextView that is used if the user want to keep their email saved when they close the app and come back next time.
+
+**Major Methods used**
+
+
+
+
 ## <a name="Reference">Reference</a>
 
 https://docs.microsoft.com/en-us/dotnet/api/android.widget.checkedtextview?view=xamarin-android-sdk-9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
