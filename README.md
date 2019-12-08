@@ -54,16 +54,23 @@ The app I created for this assignment was a simple login screen with the purpose
 
 When first adding the CheckedTextView to the main activity, the first major attribute I had to use was the android:checkMark
 I set it equal to "?android:attr/listChoiceIndicatorMultiple" alternativly, listChoiceIndicatorSingle could have been used to have a circular checkbox.
+
 The second attribute I used was android:text to set the text of the CheckedTextView to "Check to save Email".
 
+![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/CheckMArk.png?raw=true)
+
 The third method used was the setOnClickListener() this was used to determine when the user has click the CheckedTextView
+![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/SetOnClickListener.png?raw=true)
 
 The fourth method used was the isChecked() inside of the setOnClickedListener, This was used to determine if the checkbox has already been checked 
+![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/isChecked.png?raw=true)
 
 The fifth method used was the setChecked(false) this was used to uncheck the checkbox if the user had clicked it when it was already checked. Alternativly the toggle() method could have been used.
+![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/toggle.png?raw=true)
 
 The sixth method used was the toggle() method this was to check the CheckedTextView checkbox if it was not previously checked. Alternativly the setChecked(true) method could have been used to achieve the same results
 
+![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/setChecked.png?raw=true)
 
 
 
