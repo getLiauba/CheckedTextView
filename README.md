@@ -66,11 +66,12 @@ The fourth method used was the isChecked() inside of the setOnClickedListener, T
 ![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/isChecked.png?raw=true)
 
 The fifth method used was the setChecked(false) this was used to uncheck the checkbox if the user had clicked it when it was already checked. Alternativly the toggle() method could have been used.
-![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/toggle.png?raw=true)
+![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/setChecked.png?raw=true)
 
 The sixth method used was the toggle() method this was to check the CheckedTextView checkbox if it was not previously checked. Alternativly the setChecked(true) method could have been used to achieve the same results
 
-![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/setChecked.png?raw=true)
+![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/toggle.png?raw=true)
+
 
 
 
