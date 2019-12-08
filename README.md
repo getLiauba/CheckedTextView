@@ -32,6 +32,8 @@ Accoring to Microsoft the CheckedTextView Class was introduced early on in andro
 
 **toggle()** The toggle method allows the CheckedTextView to change the checked state to the inverse state.
 
+**setOnClickListener** This is used to detect when the CheckTextView has been clicked, usually used to toggle the checkbox.
+
 <h3> XML Attributes</h3>
 
 **android:checkMark** This allows the developer to define the Drawable image that should be used for the check mark graphic.
@@ -40,14 +42,28 @@ Accoring to Microsoft the CheckedTextView Class was introduced early on in andro
 
 **android:checkMarkTint** This allows the developer to set a tint to the checkmark generally a colour specified in RGB.
 
-
+**android:checkMarkTint**
 
 ## <a name="Example_Project">Example Project</a>
 
 **Overview of the app and functionality**
-The app I created for this assinment was a simple login screen with the purpose of using the ChckedTextView to save the users email when they click the check box. This application has two TextViews, one for email, the second for password. The app also has a login button (note this button does actually log users in) and lastly the checkedTextView that is used if the user want to keep their email saved when they close the app and come back next time.
+The app I created for this assignment was a simple login screen with the purpose of using the ChckedTextView to save the users email when they click the check box. This application has two TextViews, one for email, the second for password. The app also has a login button (note this button does actually log users in) and lastly the checkedTextView that is used if the user wants to keep their email saved when they close the app and come back next time.
+
 
 **Major Methods used**
+
+When first adding the CheckedTextView to the main activity, the first major attribute I had to use was the android:checkMark
+I set it equal to "?android:attr/listChoiceIndicatorMultiple" alternativly, listChoiceIndicatorSingle could have been used to have a circular checkbox.
+The second attribute I used was android:text to set the text of the CheckedTextView to "Check to save Email".
+
+The third method used was the setOnClickListener() this was used to determine when the user has click the CheckedTextView
+
+The fourth method used was the isChecked() inside of the setOnClickedListener, This was used to determine if the checkbox has already been checked 
+
+The fifth method used was the setChecked(false) this was used to uncheck the checkbox if the user had clicked it when it was already checked. Alternativly the toggle() method could have been used.
+
+The sixth method used was the toggle() method this was to check the CheckedTextView checkbox if it was not previously checked. Alternativly the setChecked(true) method could have been used to achieve the same results
+
 
 
 
