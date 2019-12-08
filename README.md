@@ -14,13 +14,14 @@
 
 The CheckedTextView is a combination of a **TextView** as well as a CheckBox that impliments the **checkable** interface. Allowing the application to display text to a user and prompting them to click the checkbox in order to change settings, remember a password, or sign up to be added to a email list, these are just some examples the developers could use it for.
 Some of the most commonly used functions are the **.setOnClickLsitener()** to detect the users clicks, **.isChecked()** to determine in the checkbox is checked or not, **setChecked()** is change the checkbox to checked by passing true, and not checked by passing false, and the **.toggle()** function inverses the checkbox to the opposite of what it was.
-<
+
 
 
 
 ## <a name="History">History</a>
 
-Accoring to Microsoft the CheckedTextView Class was introduced early on in android API 1. Included in the **android.widget.CheckedTextView** class and a part of the **android.view.View package**.
+According to Microsoft the CheckedTextView Class was introduced early on in android API 1. Included in the **android.widget.CheckedTextView** class and a part of the **android.view.View package**.
+
 
 ## <a name="Methods_Attributes">Major Methods/Attributes</a>
 
@@ -44,7 +45,7 @@ Accoring to Microsoft the CheckedTextView Class was introduced early on in andro
 
 **android:checkMarkTint** This allows the developer to set a tint to the checkmark generally a colour specified in RGB.
 
-**android:checkMarkTint**
+**android:text** This allows the developer to set the text of the CheckedTextView within the .xml file of the application.
 
 ## <a name="Example_Project">Example Project</a>
 
@@ -72,9 +73,12 @@ The fourth method used was the **isChecked()** inside of the **setOnClickedListe
 The fifth method used was the **setChecked(false)** this was used in order to uncheck the checkbox if the user had clicked it when it was already checked. Alternativly the **toggle()** method could have been used.
 ![setChecked](https://github.com/getLiauba/CheckedTextView/blob/master/Images/setChecked.png?raw=true)
 
-The sixth method used was the **toggle()** method this was in order to check the CheckedTextView checkbox if it was not previously checked. Alternativly the **setChecked(true)** method could have been used to achieve the same results
+The sixth method used was the **toggle()** method this was in order to check the CheckedTextView checkbox if it was not previously checked. Alternativly the **setChecked(true)** method could have been used to achieve the same results.
 
 ![Toggle](https://github.com/getLiauba/CheckedTextView/blob/master/Images/toggle.png?raw=true)
+
+
+These major methods were used multiple times throught the application in order to save user preferences as well.
 
 
 
