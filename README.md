@@ -49,28 +49,30 @@ Accoring to Microsoft the CheckedTextView Class was introduced early on in andro
 **Overview of the app and functionality**
 The app I created for this assignment was a simple login screen with the purpose of using the ChckedTextView to save the users email when they click the check box. This application has two TextViews, one for email, the second for password. The app also has a login button (note this button does actually log users in) and lastly the checkedTextView that is used if the user wants to keep their email saved when they close the app and come back next time.
 
+![app](https://github.com/getLiauba/CheckedTextView/blob/master/Images/appimage.png?raw=true)
+
 
 **Major Methods used**
 
 When first adding the CheckedTextView to the main activity, the first major attribute I had to use was the android:checkMark
 I set it equal to "?android:attr/listChoiceIndicatorMultiple" alternativly, listChoiceIndicatorSingle could have been used to have a circular checkbox.
 
-The second attribute I used was android:text to set the text of the CheckedTextView to "Check to save Email".
+The second attribute I used was android:text in order to set the text of the CheckedTextView to "Check to save Email".
 
 ![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/CheckMArk.png?raw=true)
 
-The third method used was the setOnClickListener() this was used to determine when the user has click the CheckedTextView
-![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/SetOnClickListener.png?raw=true)
+The third method used was the setOnClickListener() this was used in order to determine when the user has click the CheckedTextView
+![setOnClick](https://github.com/getLiauba/CheckedTextView/blob/master/Images/SetOnClickListener.png?raw=true)
 
-The fourth method used was the isChecked() inside of the setOnClickedListener, This was used to determine if the checkbox has already been checked 
-![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/isChecked.png?raw=true)
+The fourth method used was the isChecked() inside of the setOnClickedListener, This was used in order to determine if the checkbox has already been checked 
+![inChecked](https://github.com/getLiauba/CheckedTextView/blob/master/Images/isChecked.png?raw=true)
 
-The fifth method used was the setChecked(false) this was used to uncheck the checkbox if the user had clicked it when it was already checked. Alternativly the toggle() method could have been used.
-![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/setChecked.png?raw=true)
+The fifth method used was the setChecked(false) this was used in order to uncheck the checkbox if the user had clicked it when it was already checked. Alternativly the toggle() method could have been used.
+![setChecked](https://github.com/getLiauba/CheckedTextView/blob/master/Images/setChecked.png?raw=true)
 
-The sixth method used was the toggle() method this was to check the CheckedTextView checkbox if it was not previously checked. Alternativly the setChecked(true) method could have been used to achieve the same results
+The sixth method used was the toggle() method this was in order to check the CheckedTextView checkbox if it was not previously checked. Alternativly the setChecked(true) method could have been used to achieve the same results
 
-![Attribute](https://github.com/getLiauba/CheckedTextView/blob/master/Images/toggle.png?raw=true)
+![Toggle](https://github.com/getLiauba/CheckedTextView/blob/master/Images/toggle.png?raw=true)
 
 
 
