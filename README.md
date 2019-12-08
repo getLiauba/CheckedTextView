@@ -27,7 +27,7 @@ According to Microsoft the CheckedTextView Class was introduced early on in andr
 
 <h3> Methods</h3>
 
-**isChecked()** This medthod returns a boolean of true or false allowing you to make decidions programatically, weather the user clicked the checkbox or hasent clicked it.
+**isChecked()** This method returns a boolean of true or false allowing you to make decisions programmatically, weather the user clicked the checkbox or hasn’t clicked it.
 
 **setCheckMarkDrawable(int resID)** This method allows the developer to use a custom image specified from the drawable folder.
 
@@ -41,9 +41,9 @@ According to Microsoft the CheckedTextView Class was introduced early on in andr
 
 **android:checkMark** This allows the developer to define the Drawable image that should be used for the check mark graphic.
 
-**android:checked** This allows the developer to set the intial state of the checkbox.
+**android:checked** This allows the developer to set the initial state of the checkbox.
 
-**android:checkMarkTint** This allows the developer to set a tint to the checkmark generally a colour specified in RGB.
+**android:checkMarkTint** This allows the developer to set a tint to the checkmark generally a color specified in RGB.
 
 **android:text** This allows the developer to set the text of the CheckedTextView within the .xml file of the application.
 
@@ -78,9 +78,7 @@ The sixth method used was the **toggle()** method this was in order to check the
 ![Toggle](https://github.com/getLiauba/CheckedTextView/blob/master/Images/toggle.png?raw=true)
 
 
-These major methods were used multiple times throught the application in order to save user preferences as well.
-
-
+These major methods were used multiple times through the application in order to save user preferences as well.
 
 
 
